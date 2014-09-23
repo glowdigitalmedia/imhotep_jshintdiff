@@ -11,7 +11,7 @@ setup(
 	description='An imhotep plugin for javascript validation',
 	entry_points={
 		'imhotep_linters': [
-			'.py = imhotep_jshinttravis.plugin:JSHintDiff'
+			'.py = imhotep_jshintdiff.plugin:JSHintDiff'
 		],
 	},
 )
