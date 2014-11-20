@@ -8,7 +8,7 @@ class JSHintDiff(Tool):
     def __init__(self, *args, **kwargs):
         super(JSHintDiff, self).__init__(*args, **kwargs)
         self.linter = 'jshint'
-        self.config = '.jscsrc'
+        self.config = '.jshintrc'
         self.extension = 'js'
         self.regex = re.compile(
             r'(?P<filename>.*): line (?P<line_num>\d+), col \d+, (?P<message>.*)'
